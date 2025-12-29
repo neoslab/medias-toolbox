@@ -1,0 +1,133 @@
+# Copyright (C) 2025 NeosLab
+# This file is distributed under the GPL-2.0+.
+msgid ""
+msgstr ""
+"Project-Id-Version: Medias Toolbox 1.7.8\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/medias-toolbox\n"
+"Last-Translator: NeosLab <support@neoslab.com>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2025-10-20T05:55:29+00:00\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"X-Generator: WP-CLI 2.12.0\n"
+"X-Domain: medias-toolbox\n"
+
+#. Plugin Name of the plugin
+#: medias-toolbox.php
+#: admin/class-medias-toolbox-admin.php:74
+msgid "Medias Toolbox"
+msgstr ""
+
+#. Plugin URI of the plugin
+#: medias-toolbox.php
+msgid "https://wordpress.org/plugins/medias-toolbox/"
+msgstr ""
+
+#. Description of the plugin
+#: medias-toolbox.php
+msgid "Medias Toolbox allow you to sanitize and rename automatically media files during upload."
+msgstr ""
+
+#. Author of the plugin
+#: medias-toolbox.php
+msgid "NeosLab"
+msgstr ""
+
+#. Author URI of the plugin
+#: medias-toolbox.php
+msgid "https://neoslab.com"
+msgstr ""
+
+#: admin/class-medias-toolbox-admin.php:86
+msgid "Renamer"
+msgstr ""
+
+#: admin/class-medias-toolbox-admin.php:87
+msgid "Compressor"
+msgstr ""
+
+#: admin/class-medias-toolbox-table.php:297
+msgid "Compress"
+msgstr ""
+
+#: admin/class-medias-toolbox-table.php:301
+msgid "Compressed"
+msgstr ""
+
+#: admin/partials/medias-toolbox-admin-compress.php:4
+msgid "The selected media have been successfully compressed !!"
+msgstr ""
+
+#: admin/partials/medias-toolbox-admin-compress.php:23
+msgid "Below the list of all the images that currently present in your database."
+msgstr ""
+
+#: admin/partials/medias-toolbox-admin-renamer.php:4
+msgid "Your settings have been successfully updated."
+msgstr ""
+
+#: admin/partials/medias-toolbox-admin-renamer.php:10
+msgid "The file renamer status is not valid !!"
+msgstr ""
+
+#: admin/partials/medias-toolbox-admin-renamer.php:30
+msgid "You have not set up your automatic rename options ! In order to do so, please use the below form."
+msgstr ""
+
+#: admin/partials/medias-toolbox-admin-renamer.php:35
+msgid "Your plugin is properly configured ! You can change at anytime your automatic rename options using the below form."
+msgstr ""
+
+#: admin/partials/medias-toolbox-admin-renamer.php:44
+msgid "Automatic Files Renamer"
+msgstr ""
+
+#: admin/partials/medias-toolbox-admin-renamer.php:52
+msgid "Do you want to automatically rename your files on upload ?"
+msgstr ""
+
+#. translators: %s: file type (e.g., IMAGE, VIDEO, PDF)
+#: admin/partials/medias-toolbox-admin-renamer.php:62
+#, php-format
+msgid "Rename %s File"
+msgstr ""
+
+#. translators: %s: file type (e.g., IMAGE, VIDEO, PDF)
+#: admin/partials/medias-toolbox-admin-renamer.php:74
+#, php-format
+msgid "Do you want to automatically rename your %s files on upload ?"
+msgstr ""
+
+#: admin/partials/medias-toolbox-admin-renamer.php:82
+msgid "Rename Patterns"
+msgstr ""
+
+#: admin/partials/medias-toolbox-admin-renamer.php:88
+msgid "Current Date/Time + Sanitized filename"
+msgstr ""
+
+#: admin/partials/medias-toolbox-admin-renamer.php:93
+msgid "Current Timestamp + Sanitized filename"
+msgstr ""
+
+#: admin/partials/medias-toolbox-admin-renamer.php:98
+msgid "Current Date/Time + Unique Random String"
+msgstr ""
+
+#: admin/partials/medias-toolbox-admin-renamer.php:103
+msgid "Current Timestamp + Unique Random String"
+msgstr ""
+
+#: admin/partials/medias-toolbox-admin-renamer.php:108
+msgid "Current Date/Time + Encrypted filename"
+msgstr ""
+
+#: admin/partials/medias-toolbox-admin-renamer.php:113
+msgid "Current Timestamp + Encrypted filename"
+msgstr ""
+
+#: admin/partials/medias-toolbox-admin-renamer.php:139
+msgid "Update Settings"
+msgstr ""

@@ -1,0 +1,735 @@
+/**
+ * Spacer
+*/
+.wpdx-break
+{
+    margin:0;
+    padding:0;
+    display:block;
+    height:5px;
+}
+
+/**
+ * Header
+*/
+.wpdx-header
+{
+	border:1px solid #dedede;
+	border-bottom:0px;
+	height:50px;
+	line-height:50px;
+	background:#ffffff;
+	background:-moz-linear-gradient(top, #f9f9f9 0%, #ffffff 47%, #ededed 100%);
+	background:-webkit-linear-gradient(top, #f9f9f9 0%, #ffffff 47%, #ededed 100%);
+	background:linear-gradient(to bottom, #f9f9f9 0%, #ffffff 47%, #ededed 100%);
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#f9f9f9', endColorstr='#ededed',GradientType=0);
+	padding:0px 20px;
+}
+
+.wpdx-header .header-icon
+{
+	display:inline-block;
+	font-size:18px;
+	color:#545454;
+	text-shadow:1px 1px 1px #ffffff;
+	margin:0px 5px 0px 0px;
+}
+
+.wpdx-header .header-text
+{
+	font-size:14px;
+	font-weight:bold;
+	text-transform:uppercase;
+	color:#545454;
+	text-shadow:1px 1px 1px #ffffff;
+}
+
+/**
+ * Text
+*/
+.wpdx-txt-l
+{
+	text-align:left;
+}
+
+.wpdx-txt-r
+{
+	text-align:right;
+}
+
+.wpdx-txt-c
+{
+	text-align:center;
+}
+
+/**
+ * General
+*/
+.wpdx-wrapper
+{
+	width:100%;
+	margin:20px auto 30px auto;
+}
+
+.wpdx-wrapper .wpdx-container
+{
+	position:relative;
+	padding:0px;
+	margin:0px;
+}
+
+/**
+ * Tabs Wrapper
+*/
+.wpdx-tabs
+{
+	padding:0px;
+	margin:0px;
+}
+
+.wpdx-tabs .tabs-main
+{
+	padding:0px;
+	border:1px solid rgba(0,0,0,.2);
+	background:#ffffff;
+	box-shadow:0 1px 3px rgba(0,0,0,.1);
+}
+
+.wpdx-tabs .tabs-main .tab-section
+{
+	padding:0px;
+	border-top:1px solid #dedede;
+	margin-top:-1px;
+	background-color:#f9f9f9;
+}
+
+.wpdx-tabs .tabs-main .tab-label
+{
+	display:inline-block;
+	height:50px;
+	line-height:50px;
+	font-weight:500;
+	text-align:center;
+	padding:0px;
+	border:1px solid transparent;
+	border:2px solid transparent;
+}
+
+.wpdx-tabs .tabs-main .tab-label.active
+{
+	border:1px solid #dedede;
+	border-top:2px solid #00aaff;
+	border-bottom:2px solid #f9f9f9;
+	background-color:#f9f9f9;
+}
+
+.wpdx-tabs .tabs-main .tab-label.active a,
+.wpdx-tabs .tabs-main .tab-label.active a:hover
+{
+	color:#0084c8;
+}
+
+.wpdx-tabs .tabs-main .tab-label a
+{
+	display:inline-block;
+	height:100%;
+	padding:0px 25px;
+	text-transform:uppercase;
+	text-decoration:none;
+}
+
+.wpdx-tabs .tabs-main .tab-label a:hover
+{
+	text-decoration:none;
+}
+
+.wpdx-tabs .tabs-main .tab-label a i
+{
+	display:inline-block;
+	margin-right:5px;
+	font-size:16px;
+}
+
+.wpdx-tabs .tabs-main .tab-label a span
+{
+	text-transform:uppercase;
+}
+
+.wpdx-tabs .tabs-main .tab-label:before
+{
+	font-family:fontawesome;
+	font-weight:normal;
+	margin-right:10px;
+}
+
+.wpdx-tabs .tabs-main .tab-label.tab1 
+{
+	border-left:0px; 
+}
+
+.wpdx-tabs .tabs-main .tab-label:hover
+{
+	color:#789;
+	cursor:pointer;
+}
+
+@media screen and (max-width:800px)
+{
+	.wpdx-tabs .tabs-main .tab-label
+	{
+		font-size:0;
+	}
+
+	.wpdx-tabs .tabs-main .tab-label:before
+	{
+		margin:0;
+		font-size:18px;
+	}
+}
+
+@media screen and (max-width:500px)
+{
+    .wpdx-tabs .tabs-main .tab-label a i
+    {
+    	display:none;
+    }
+}
+
+/**
+ * Notice Wrapper
+*/
+.wpdx-notice
+{
+
+	color:white;
+	opacity:1;
+	transition:opacity 0.6s;
+	margin:0px;
+	padding:20px;
+}
+
+.wpdx-notice.wrong
+{
+	background-color:#f44336;
+}
+
+.wpdx-notice.success
+{
+	background-color:#4CAF50;
+}
+
+.wpdx-notice.info
+{
+	background-color:#2196F3;
+}
+
+.wpdx-notice.warning
+{
+	background-color:#ff9800;
+}
+
+.wpdx-notice .close-btn
+{
+	margin-left:15px;
+	color:white;
+	font-weight:bold;
+	float:right;
+	font-size:22px;
+	line-height:20px;
+	cursor:pointer;
+	transition:0.3s;
+}
+
+.wpdx-notice .close-btn:hover
+{
+	color:black;
+}
+
+.wpdx-notice a
+{
+	color:#ffffff;
+}
+
+.wpdx-notice a:hover
+{
+	color:#ffffff;
+}
+
+/**
+ * Form Wrapper
+*/
+.wpdx-form
+{
+	padding:0px;
+	margin:0px;
+}
+
+.wpdx-form .subfield
+{
+	display:none;
+}
+
+.wpdx-form .subfield .show
+{
+	display:block;
+}
+
+.wpdx-form .field
+{
+	padding:20px;
+	margin:0px;
+    border-bottom:1px solid #dedede;
+}
+
+.wpdx-form .field:hover
+{
+    background-color:rgba(55, 140, 240, 0.1);
+    -webkit-transition:background-color 1000ms linear;
+    -ms-transition:background-color 1000ms linear;
+    transition:background-color 1000ms linear;
+    border-bottom:1px solid #dedede;
+}
+
+.wpdx-form .field .label
+{
+	display:block;
+	width:100%;
+	font-weight:bold;
+	margin-bottom:10px;
+	padding:0px 15px 0px 0px;
+	text-transform:uppercase;
+}
+
+.wpdx-form .field small
+{
+	display:block;
+	width:100%;
+	font-size:13px;
+	font-style:italic;
+	padding:5px 0px;
+}
+
+.wpdx-form .field select,
+.wpdx-form .field input[type=text],
+.wpdx-form .field input[type=email],
+.wpdx-form .field input[type=tel],
+.wpdx-form .field input[type=password]
+{
+    display:block;
+    width:100%;
+    min-width:100%;
+    font-size:15px;
+    color:#333;
+    padding:8px 5px;
+    border:1px solid #dedede;
+    -webkit-border-radius:2px;
+    border-radius:2px;
+    -moz-border-radius:2px;
+    -o-border-radius:2px;
+    -ms-border-radius:2px;
+    height:45px;
+    min-height:45px;
+}
+
+.wpdx-form .field textarea
+{
+    display:block;
+    width:100%;
+    min-width:100%;
+    font-size:15px;
+    color:#333;
+    padding:8px 5px;
+    border:1px solid #dedede;
+    -webkit-border-radius:2px;
+    border-radius:2px;
+    -moz-border-radius:2px;
+    -o-border-radius:2px;
+    -ms-border-radius:2px;
+    min-height:100px;
+}
+
+.wpdx-form .form-footer
+{
+	padding:20px;
+	margin:0px;
+    border:0px;
+    border-top:1px solid #ffffff;
+    background-color:#f9f9f9;
+}
+
+/**
+ * Table Wrapper
+*/
+
+.wpdx-datatables
+{
+	padding:20px 30px;
+	margin:0px;
+	border-top:1px solid #f9f9f9;
+}
+
+.wpdx-datatables form .wp-list-table thead tr th#thumb
+{
+	width:60px;
+	text-align:center;
+}
+
+.wpdx-datatables form .wp-list-table thead tr th#size
+{
+	width:150px;
+	text-align:center;
+}
+
+.wpdx-datatables form .wp-list-table thead tr th#load
+{
+	width:150px;
+	text-align:center;
+}
+
+.wpdx-datatables form .wp-list-table thead tr th#dimensions
+{
+	width:150px;
+	text-align:center;
+}
+
+.wpdx-datatables form .wp-list-table thead tr th#type
+{
+	width:200px;
+	text-align:center;
+}
+
+.wpdx-datatables form .wp-list-table thead tr th#action
+{
+	width:150px;
+	text-align:center;
+}
+
+.wpdx-datatables form .wp-list-table tbody tr th,
+.wpdx-datatables form .wp-list-table tbody tr td
+{
+	vertical-align:middle;
+}
+
+.wpdx-datatables form .wp-list-table tbody tr td:nth-child(4),
+.wpdx-datatables form .wp-list-table tbody tr td:nth-child(5),
+.wpdx-datatables form .wp-list-table tbody tr td:nth-child(6),
+.wpdx-datatables form .wp-list-table tbody tr td:nth-child(7),
+.wpdx-datatables form .wp-list-table tbody tr td:nth-child(8)
+{
+	text-align:center;
+}
+
+.wpdx-datatables form .wp-list-table tfoot tr th:nth-child(2),
+.wpdx-datatables form .wp-list-table tfoot tr th:nth-child(4),
+.wpdx-datatables form .wp-list-table tfoot tr th:nth-child(5),
+.wpdx-datatables form .wp-list-table tfoot tr th:nth-child(6),
+.wpdx-datatables form .wp-list-table tfoot tr th:nth-child(7),
+.wpdx-datatables form .wp-list-table tfoot tr th:nth-child(8)
+{
+	text-align:center;
+}
+
+.wpdx-datatables form .wp-list-table tbody tr th input[type=checkbox]
+{
+	margin-bottom:25px;
+}
+
+.wpdx-datatables form .wp-list-table tbody tr td .thumb
+{
+	border:1px solid #dedede;
+	padding:4px;
+	width:50px;
+	height:50px;
+}
+
+.wpdx-datatables .dataTables_wrapper .dataTables_length,
+.wpdx-datatables .dataTables_wrapper .dataTables_filter
+{
+	margin:0px 0px 15px 0px;
+}
+
+.wpdx-datatables .dataTables_wrapper .dataTables_filter label input
+{
+	padding:10px 5px;
+}
+
+.wpdx-datatables .dataTables_wrapper .dataTables_length select
+{
+	display:inline-block;
+	color:#333;
+  	font-size:14px;
+  	height:35px;
+  	line-height:35px;
+  	margin:0px 5px;
+  	padding:0px 20px 0px 10px;
+  	-webkit-appearance:none;
+  	-moz-appearance:none;
+  	appearance:none;
+	background:url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='100' height='100' fill='%23DEDEDE'><polygon points='0,0 100,0 50,50'/></svg>") no-repeat;
+	background-size:12px;
+	background-position:calc(100% - 10px) 15px;
+	background-repeat:no-repeat;
+	background-color:#f2f3f2;
+	border:1px solid #dedede;
+	-webkit-border-radius:5px;
+	-moz-border-radius:5px;
+	border-radius:5px;
+}
+
+.wpdx-datatables .dataTables_wrapper .dataTables_length select:focus
+{
+	background-color:#f0f0f0;
+}
+
+.wpdx-datatables .dataTables_wrapper .dataTables_filter label input
+{
+  height:35px!important;
+  background-color:#f2f3f2;
+  border:1px solid #dedede;
+}
+
+.wpdx-datatables .dataTables_wrapper .dataTable
+{
+	margin:20px 0px;
+	border:1px solid #dedede;
+}
+
+.wpdx-datatables .dataTables_wrapper .dataTable thead tr th
+{
+	border-bottom:1px solid #dedede;
+}
+
+.wpdx-datatables .dataTables_wrapper .dataTable tbody tr td .thumb
+{
+	border:1px solid #dedede;
+	padding:4px;
+	width:90px;
+	height:90px;
+}
+
+.wpdx-datatables .dataTables_wrapper .dataTable tfoot tr th
+{
+	border-top:1px solid #dedede;
+}
+
+.wpdx-datatables .dataTables_wrapper .dataTables_paginate
+{
+	border:1px solid #dedede;
+	-webkit-border-radius:5px;
+	-moz-border-radius:5px;
+	border-radius:5px;
+	padding:0px;
+	-webkit-box-shadow:none;
+	-moz-box-shadow:none;
+	box-shadow:none;
+}
+
+.wpdx-datatables .dataTables_wrapper .dataTables_paginate .paginate_button
+{
+	padding:10px 20px;
+	color:#333;
+	border:0px;
+	background:none;
+	background-color:#f2f3f2;
+	margin:0px;
+	border-right:1px solid #dedede;
+}
+
+.wpdx-datatables .dataTables_wrapper .dataTables_paginate .paginate_button:hover
+{
+	padding:10px 20px;
+	background-color:#f0f0f0;
+}
+
+.wpdx-datatables .dataTables_wrapper .dataTables_paginate .paginate_button.next:last-of-type
+{
+    border-right:0px;
+}
+
+.wpdx-datatables .dataTables_wrapper .button
+{
+    margin:2px 5px;
+    width:85px;
+}
+
+.wpdx-datatables .dataTables_wrapper .button-danger
+{
+    background-color:#d9534f;
+    border:1px solid #a71310;
+    color:#ffffff;
+}
+
+/**
+ * Toggle Button
+*/
+.onoffswitch
+{
+	margin:10px 0px 5px 0px;
+	position:relative;
+	width:75px;
+	-webkit-user-select:none;
+	-moz-user-select:none;
+	-ms-user-select:none;
+}
+
+.onoffswitch-checkbox
+{
+	display:none!important;
+}
+
+.onoffswitch-label
+{
+	display:block;
+	overflow:hidden;
+	cursor:pointer;
+	border:2px solid #999999;
+	border-radius:0px;
+}
+
+.onoffswitch-inner
+{
+	display:block;
+	width:200%;
+	margin-left:-100%;
+	transition:margin 0.3s ease-in 0s;
+}
+
+.onoffswitch-inner:before, .onoffswitch-inner:after
+{
+	display:block;
+	float:left;
+	width:50%;
+	height:30px;
+	padding:0;
+	line-height:26px;
+	font-size:13px;
+	color:white;
+	font-family:Trebuchet, Arial, sans-serif;
+	font-weight:bold;
+	box-sizing:border-box;
+	border:2px solid transparent;
+	background-clip:padding-box;
+}
+
+.onoffswitch-inner:before
+{
+	content:"ON";
+	padding-left:12px;
+	background-color:#339E3C;
+	color:#ffffff;
+}
+
+.onoffswitch-inner:after
+{
+	content:"OFF";
+	padding-right:8px;
+	background-color:#C26969;
+	color:#ffffff;
+	text-align:right;
+}
+
+.onoffswitch-switch
+{
+	display:block;
+	width:25px;
+	margin:0px;
+	background:#999999;
+	position:absolute;
+	top:0;
+	bottom:0;
+	right:50px;
+	transition:all 0.3s ease-in 0s;
+}
+
+.onoffswitch-checkbox:checked + .onoffswitch-label .onoffswitch-inner
+{
+	margin-left:0;
+}
+
+.onoffswitch-checkbox:checked + .onoffswitch-label .onoffswitch-switch
+{
+	right:0px;
+}
+
+/**
+ * Radio Box
+*/
+.radiobox
+{
+	display:block;
+	position:relative;
+	padding-left:25px;
+	margin-bottom:12px;
+	cursor:pointer;
+	-webkit-user-select:none;
+	-moz-user-select:none;
+	-ms-user-select:none;
+	user-select:none;
+    font-size:15px;
+}
+
+.radiobox input
+{
+	position:absolute;
+  	opacity:0;
+  	cursor:pointer;
+}
+
+.radiobox .checkmark
+{
+	position:absolute;
+	top:0;
+	left:0;
+	height:16px;
+	width:16px;
+	background-color:#cecece;
+	border-radius:50%;
+	border-color:#cacaca;
+}
+
+.radiobox:hover input ~ .checkmark
+{
+	background-color:#dadada;
+}
+
+.radiobox input:checked ~ .checkmark
+{
+	background-color:#2196F3;
+}
+
+.checkmark:after
+{
+	content:"";
+	position:absolute;
+	display:none;
+}
+
+.radiobox input:checked ~ .checkmark:after
+{
+	display:block;
+}
+
+.radiobox .checkmark:after
+{
+	top:5px;
+	left:5px;
+	width:6px;
+	height:6px;
+	border-radius:50%;
+	background:white;
+}
+
+/**
+ * Red Mark
+*/
+.redmark
+{
+    display:inline-block;
+    margin-left:5px;
+    font-weight:normal;
+}
+
+.redmark span
+{
+    color:red;
+}
