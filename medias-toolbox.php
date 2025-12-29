@@ -15,7 +15,7 @@
  * Plugin Name: Medias Toolbox
  * Plugin URI: https://wordpress.org/plugins/medias-toolbox/
  * Description: Medias Toolbox allow you to sanitize and rename automatically media files during upload.
- * Version: 1.8.2
+ * Version: 1.8.3
  * Author: NeosLab
  * Author URI: https://neoslab.com
  * License: GPL-2.0+
@@ -37,7 +37,7 @@ if(!defined('WPINC'))
  * Start at version 1.0.0 and use SemVer - https://semver.org
  * Rename this for your plugin and update it as you release new versions
 */
-define('MEDIAS_TOOLBOX_VERSION', '1.8.2');
+define('MEDIAS_TOOLBOX_VERSION', '1.8.3');
 
 /**
  * Define Allowed Filetype

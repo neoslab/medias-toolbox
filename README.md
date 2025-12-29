@@ -95,6 +95,10 @@ Medias Toolbox allows you to sanitize and rename media files automatically durin
 
 ## Changelog
 
+### 1.8.3 (2025-12-29)
+
+- Code revision and optimization
+
 ### 1.8.2 (2025-12-17)
 
 - Added WEBP image support
