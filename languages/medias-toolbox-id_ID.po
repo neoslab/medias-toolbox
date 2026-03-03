@@ -5,132 +5,131 @@ msgstr ""
 "Project-Id-Version: Medias Toolbox 1.8.4\n"
 "Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/medias-toolbox\n"
 "POT-Creation-Date: 2026-03-03 13:14:37+00:00\n"
+"PO-Revision-Date: 2026-03-03 14:00:00+00:00\n"
+"Last-Translator: \n"
+"Language-Team: Indonesian\n"
+"Language: id_ID\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"PO-Revision-Date: 2026-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
 
 #: admin/class-medias-toolbox-admin.php:74
 msgid "Medias Toolbox"
-msgstr ""
+msgstr "Medias Toolbox"
 
 #: admin/class-medias-toolbox-admin.php:86
 msgid "Renamer"
-msgstr ""
+msgstr "Pengubah Nama"
 
 #: admin/class-medias-toolbox-admin.php:87
 msgid "Compressor"
-msgstr ""
+msgstr "Pengompres"
 
 #: admin/class-medias-toolbox-table.php:297
 msgid "Compress"
-msgstr ""
+msgstr "Kompres"
 
 #: admin/class-medias-toolbox-table.php:301
 msgid "Compressed"
-msgstr ""
+msgstr "Terkompres"
 
 #: admin/partials/medias-toolbox-admin-compress.php:4
 msgid "The selected media have been successfully compressed !!"
-msgstr ""
+msgstr "Media yang dipilih berhasil dikompres!!"
 
 #: admin/partials/medias-toolbox-admin-compress.php:23
 msgid "Below the list of all the images that currently present in your database."
-msgstr ""
+msgstr "Di bawah ini daftar semua gambar yang saat ini ada di database Anda."
 
 #: admin/partials/medias-toolbox-admin-renamer.php:4
 msgid "Your settings have been successfully updated."
-msgstr ""
+msgstr "Pengaturan Anda berhasil diperbarui."
 
 #: admin/partials/medias-toolbox-admin-renamer.php:10
 msgid "The file renamer status is not valid !!"
-msgstr ""
+msgstr "Status pengubah nama file tidak valid!!"
 
 #: admin/partials/medias-toolbox-admin-renamer.php:30
 msgid "You have not set up your automatic rename options ! In order to do so, please use the below form."
-msgstr ""
+msgstr "Anda belum mengatur opsi penggantian nama otomatis! Untuk melakukannya, silakan gunakan formulir di bawah ini."
 
 #: admin/partials/medias-toolbox-admin-renamer.php:35
 msgid "Your plugin is properly configured ! You can change at anytime your automatic rename options using the below form."
-msgstr ""
+msgstr "Plugin Anda telah dikonfigurasi dengan benar! Anda dapat mengubah kapan saja opsi penggantian nama otomatis menggunakan formulir di bawah ini."
 
 #: admin/partials/medias-toolbox-admin-renamer.php:44
 msgid "Automatic Files Renamer"
-msgstr ""
+msgstr "Pengubah Nama File Otomatis"
 
 #: admin/partials/medias-toolbox-admin-renamer.php:52
 msgid "Do you want to automatically rename your files on upload ?"
-msgstr ""
+msgstr "Apakah Anda ingin secara otomatis mengganti nama file saat diunggah?"
 
 #: admin/partials/medias-toolbox-admin-renamer.php:60
 msgid "Rename %s File"
-msgstr ""
+msgstr "Ganti Nama File %s"
 
 #: admin/partials/medias-toolbox-admin-renamer.php:68
 msgid "Do you want to automatically rename your %s files on upload ?"
-msgstr ""
+msgstr "Apakah Anda ingin secara otomatis mengganti nama file %s Anda saat diunggah?"
 
 #: admin/partials/medias-toolbox-admin-renamer.php:74
 msgid "Rename Patterns"
-msgstr ""
+msgstr "Pola Penggantian Nama"
 
 #: admin/partials/medias-toolbox-admin-renamer.php:80
 msgid "Current Date/Time + Sanitized filename"
-msgstr ""
+msgstr "Tanggal/Waktu Saat Ini + Nama file yang dibersihkan"
 
 #: admin/partials/medias-toolbox-admin-renamer.php:81
 #: admin/partials/medias-toolbox-admin-renamer.php:86
 msgid "%s-original-filename-sanitized.jpg"
-msgstr ""
+msgstr "%s-nama-file-asli-dibersihkan.jpg"
 
 #: admin/partials/medias-toolbox-admin-renamer.php:85
 msgid "Current Timestamp + Sanitized filename"
-msgstr ""
+msgstr "Stempel waktu saat ini + Nama file yang dibersihkan"
 
 #: admin/partials/medias-toolbox-admin-renamer.php:90
 msgid "Current Date/Time + Unique Random String"
-msgstr ""
+msgstr "Tanggal/Waktu Saat Ini + String acak unik"
 
 #: admin/partials/medias-toolbox-admin-renamer.php:91
 #: admin/partials/medias-toolbox-admin-renamer.php:96
 #: admin/partials/medias-toolbox-admin-renamer.php:101
 #: admin/partials/medias-toolbox-admin-renamer.php:106
 msgid "%s-%s.jpg"
-msgstr ""
+msgstr "%s-%s.jpg"
 
 #: admin/partials/medias-toolbox-admin-renamer.php:95
 msgid "Current Timestamp + Unique Random String"
-msgstr ""
+msgstr "Stempel waktu saat ini + String acak unik"
 
 #: admin/partials/medias-toolbox-admin-renamer.php:100
 msgid "Current Date/Time + Encrypted filename"
-msgstr ""
+msgstr "Tanggal/Waktu Saat Ini + Nama file terenkripsi"
 
 #: admin/partials/medias-toolbox-admin-renamer.php:105
 msgid "Current Timestamp + Encrypted filename"
-msgstr ""
+msgstr "Stempel waktu saat ini + Nama file terenkripsi"
 
 #: admin/partials/medias-toolbox-admin-renamer.php:131
 msgid "Update Settings"
-msgstr ""
-#. Plugin Name of the plugin/theme
-msgid "Medias Toolbox"
-msgstr ""
+msgstr "Perbarui Pengaturan"
 
 #. Plugin URI of the plugin/theme
 msgid "https://wordpress.org/plugins/medias-toolbox/"
-msgstr ""
+msgstr "https://wordpress.org/plugins/medias-toolbox/"
 
 #. Description of the plugin/theme
 msgid "Medias Toolbox allow you to sanitize and rename automatically media files during upload."
-msgstr ""
+msgstr "Medias Toolbox memungkinkan Anda membersihkan dan mengganti nama file media secara otomatis selama pengunggahan."
 
 #. Author of the plugin/theme
 msgid "NeosLab"
-msgstr ""
+msgstr "NeosLab"
 
 #. Author URI of the plugin/theme
 msgid "https://neoslab.com"
-msgstr ""
+msgstr "https://neoslab.com"
