@@ -95,6 +95,11 @@ Medias Toolbox allows you to sanitize and rename media files automatically durin
 
 ## Changelog
 
+### 1.8.5 (2026-06-02)
+
+- Fontawesome update
+- Code revision and optimization
+
 ### 1.8.4 (2026-03-03)
 
 - Fontawesome update

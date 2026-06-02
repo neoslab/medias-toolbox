@@ -3,7 +3,7 @@ Contributors: NeosLab
 Tags: rename, clean, file, files, media
 Requires at least: 4.9
 Tested up to: 6.9.1
-Stable tag: 1.8.4
+Stable tag: 1.8.5
 License URI: https://raw.githubusercontent.com/neoslab/medias-toolbox/refs/heads/main/LICENSE
 
 Medias Toolbox allow you to sanitize and rename automatically media files during upload.
@@ -83,6 +83,10 @@ Medias Toolbox allow you to sanitize and rename automatically media files during
 *	.3g2
 
 == Changelog ==
+
+= 1.8.5 (2026-06-02) =
+* Fontawesome update
+* Code revision and optimization
 
 = 1.8.4 (2026-03-03) =
 * Fontawesome update
